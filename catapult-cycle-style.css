@@ -1,0 +1,67 @@
+#cat-cycle-nav {
+	margin-top:7px;
+	float:right;
+}
+#listing-banner img {
+	max-width:100%;
+}
+#cat-cycle-nav a {
+	text-indent:-9999px;
+	display:block;
+	float:left;
+	background:url(images/cat-tab.png) no-repeat bottom;
+	width:14px;
+	height:14px;
+	margin-left:3px;
+}
+#cat-cycle-nav a.activeSlide {
+	background:url(images/cat-tab.png) no-repeat top;
+}
+#catapult-navigation {
+	position:relative;
+}
+.catapult-cycle-image {
+	position:relative;
+	z-index:1;
+}
+#cat-prev-arrow {
+	position: absolute;
+	z-index: 9998;
+	left: 10px;
+	top: 48%;
+	width: 41px;
+	height: 41px;
+	display: block;
+	background: url(images/arrows.png) bottom left;
+	cursor:pointer;
+}
+#cat-prev-arrow:hover {
+	background: url(images/arrows.png) top left;
+}
+#cat-next-arrow {
+	position:absolute;
+	z-index:9997;
+	right:10px;
+	top:48%;
+	width: 41px;
+	height: 41px;
+	display: block;
+	background: url(images/arrows.png) bottom right;
+	cursor:pointer;
+}
+#cat-next-arrow:hover {
+	background: url(images/arrows.png) top right;
+}
+#catapult-caption-slides {
+	position:absolute;
+	left:10px;
+	bottom:10px;
+	z-index:9999;
+	width:50%;
+}
+.catapult-caption {
+	padding:10px;
+	background:rgba(0, 0, 0,);
+	background:rgba(0, 0, 0, 0.7);
+	color:#fff;
+}
